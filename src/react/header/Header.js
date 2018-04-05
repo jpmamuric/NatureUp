@@ -5,14 +5,15 @@ import logo from '../../assets/img/logo-white.png'
 
 const Header = () => (
   <header className='header'>
-    <div className='logo-container'>
-      <img src={logo} alt='logo' className='logo'/>
+    <div className='header__logo-container'>
+      <img src={logo} alt='logo' className='header__logo'/>
     </div>
-    <div className='heading-container'>
+    <div className='header__heading-container'>
       <h1 className='heading'>
         <span className='heading-main'>Nature Up</span>
         <span className='heading-sub'>rediscover your nature</span>
       </h1>
+      <a href='#pricing' className='btn btn--white'>Discover</a>
     </div>
 
   </header>
