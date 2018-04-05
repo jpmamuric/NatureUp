@@ -1,10 +1,10 @@
 import React from 'react';
 
 import './Header.scss';
-import logo from '../../assets/img/logo-white.png'
+import logo from '../../../assets/img/logo-white.png'
 
 const Header = () => (
-  <header className='header'>
+  <header className='header' id='header'>
     <div className='header__logo-container'>
       <img src={logo} alt='logo' className='header__logo'/>
     </div>
@@ -13,7 +13,7 @@ const Header = () => (
         <span className='heading-main'>Nature Up</span>
         <span className='heading-sub'>rediscover your nature</span>
       </h1>
-      <a href='#pricing' className='btn btn--white'>Discover</a>
+      <a href='#about' className='btn btn--white'>Discover</a>
     </div>
 
   </header>
